@@ -17,11 +17,9 @@ public class ArrayValueCalculator {
                 } catch (NumberFormatException exception) {
                     throw new ArrayDataException("Not valid input data: " + "Index i = " + i + " Index j = " + j);
                 }
-                //if (!isInt(Integer.parseInt(temp))) throw new ArrayDataException("Not valid input data: " + temp);
 
             }
         }
-
         return totalSum;
     }
 
